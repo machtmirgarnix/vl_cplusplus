@@ -2,7 +2,7 @@
 ## C++ vs. Python
 ### Compiler vs. Interpreter
 ### Typsystem: statisch, stark vs. Duck-Typing
-### Klammern vs. Indent, Semikolon
+### Klammern vs. Einrückung, Semikolon
 
 ## Die C++ Pipeline
 
@@ -24,7 +24,7 @@
 ## Resourcen
 Zum Nachlesen ...
 * [C++ Language Tutorial](http://www.cplusplus.com/doc/tutorial/) (kostenlos, online)
-* Breymann: [Der C++ Progammierer](http://wwwcppbuch.de) (Buch)
+* Breymann: [Der C++ Programmierer](http://www.cppbuch.de) (Buch)
 * Stackoverflow, Google, etc.
 
 ## Style Guide
