@@ -139,7 +139,7 @@ srand(342235325);
 
 int random = rand() // Zufallszahl zw. 0 und RAND_MAX
 
-int random_range = rand() % 11 // Zufallszahl zwischen 0 und 12
+int random_range = rand() % 12 // Zufallszahl zwischen 0 und 11
 ```
 Lest euch am besten nochmal den [Artikel im Tutorial](http://www.cplusplus.com/reference/cstdlib/rand/) durch !
 
