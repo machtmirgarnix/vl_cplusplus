@@ -8,9 +8,9 @@
 * Compiler (zu Deutsch: Übersetzer) übersetzt den Quellcode in Maschinensprache
 
 ### Typsystem: statisch, stark vs. Duck-Typing
-**Python**: Duck-Typing (a.k.a schwach, dynamisch)
+**Python**: Duck-Typing (a.k.a dynamische Typisierung)
 * Datentyp von Variablen wird zur Laufzeit bestimmt!
-* "Walks like a duck, quacks like a duck, pecks like a duck => must be a duck!"
+* "When I see a bird that walks like a duck and swims like a duck and quacks like a duck, I call that bird a duck." - James Whitcomb Riley
 
 **C++**: statisch, stark
 * Datentypen müssen zur Compile-Time bekannt sein!
