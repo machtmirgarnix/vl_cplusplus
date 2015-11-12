@@ -80,6 +80,8 @@ g++ -o executable_file_name source_file.cpp
 * Tool zur verteilten Versionsverwaltung
 * Vorlesungsmaterialien werden über Git verteilt !
 
+Relevant XKCD: [(click)](https://xkcd.com/1597/)
+
 
 ## Weitere Resourcen
 Zum Nachlesen ...
