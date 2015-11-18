@@ -1,4 +1,5 @@
 #include <iosream>
+// das t in iostream fehlt
 using namespace std;
 
 int main(){
