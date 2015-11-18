@@ -157,7 +157,7 @@ Zur Auswahl kann dann eine Zufallszahl zw. 0 und 11 generiert werden, die eine N
 Funktionen zur Ein- und Ausgabe, das Einbinden einer Header-Datei, sowie Schleifen sollten aus der Vorlesung
 bekannt sein.
 
-### 1.4
+### 1.5
 ```c++
 #include <iostream>
 using namespace std;
@@ -170,7 +170,6 @@ int main(){
 
   cout << "Das Programm wird mit 0 beendet!";
 
-  // Abfrage Anzahl Musiker
   cin >> laenge_zufaellige_melodie;
   
   while(true){
