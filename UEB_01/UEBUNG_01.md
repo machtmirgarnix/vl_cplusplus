@@ -177,9 +177,10 @@ int main(){
     if (laenge_zufaellige_melodie = 0) {
       break;
     } else {
-      cout << noten_array[random_range];
+      cout << laenge_zufällige_melodie * noten_array[random_range];
     }
   }
+  return 0;
 }
   
 
