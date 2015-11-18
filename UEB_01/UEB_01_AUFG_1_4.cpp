@@ -31,7 +31,16 @@ int main(){
   } else {
     cout << "Das sind aber zu viele!" << endl;
   }
-
+ 
+ /*
+  if (anzahl_musiker > 4) {
+    cout << "Das sind aber zu viele!" << endl;
+  } else if (anzahl_musiker < 4){
+    cout << "Da fehlt doch noch wer!" << endl;
+  } else {
+    cout << "Das Quartett ist vollständig" << endl;
+  }
+*/
 
   return 0;
 }
