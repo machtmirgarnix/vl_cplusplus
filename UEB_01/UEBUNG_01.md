@@ -157,25 +157,31 @@ Zur Auswahl kann dann eine Zufallszahl zw. 0 und 11 generiert werden, die eine N
 Funktionen zur Ein- und Ausgabe, das Einbinden einer Header-Datei, sowie Schleifen sollten aus der Vorlesung
 bekannt sein.
 
-### 1.5
+### 2.0
 ```c++
 #include <iostream>
 using namespace std;
 
 int main(){
 
-  string noten_array[11] = {"C","D","E","F","G","A","H","B","C#","F#","D#",};
+  string noten_array[] = {"C","D","E","F","G","A","H","B","C#","F#","D#",};
+  int random_range = rand() % 12
 
   int laenge_zufaellige_melodie = 0;
 
   cout << "Das Programm wird mit 0 beendet!";
+  cout << "Bitte Länge der Melodie eingeben: ";
 
   cin >> laenge_zufaellige_melodie;
   
   while(true){
     if (laenge_zufaellige_melodie = 0) {
       break;
-    } else if ()
+    } else {
+      cout << noten_array[random_range];
+    }
+  }
+}
   
 
 
