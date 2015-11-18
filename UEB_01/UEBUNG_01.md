@@ -156,3 +156,34 @@ Die (als Strings definierten Noten) können z.B. in einem Array von Strings gesp
 Zur Auswahl kann dann eine Zufallszahl zw. 0 und 11 generiert werden, die eine Note aus dem Array auswählt.
 Funktionen zur Ein- und Ausgabe, das Einbinden einer Header-Datei, sowie Schleifen sollten aus der Vorlesung
 bekannt sein.
+
+### 1.4
+```c++
+#include <iostream>
+using namespace std;
+
+int main(){
+
+  string noten_array[11] = {"C","D","E","F","G","A","H","B","C#","F#","D#",};
+
+  int laenge_zufaellige_melodie = 0;
+
+  cout << "Das Programm wird mit 0 beendet!";
+
+  // Abfrage Anzahl Musiker
+  cin >> laenge_zufaellige_melodie;
+  
+  while(true){
+    if (laenge_zufaellige_melodie = 0) {
+      break;
+    } else if ()
+  
+
+
+
+
+
+
+
+
+
