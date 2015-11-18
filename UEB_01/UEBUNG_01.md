@@ -172,9 +172,8 @@ int main(){
   cout << "Das Programm wird mit 0 beendet!";
   cout << "Bitte Länge der Melodie eingeben: ";
 
-  cin >> laenge_zufaellige_melodie;
-  
   while(true){
+    cin >> laenge_zufaellige_melodie;
     if (laenge_zufaellige_melodie = 0) {
       break;
     } else {
