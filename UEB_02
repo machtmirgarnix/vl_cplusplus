@@ -1,0 +1,77 @@
+# 2. Übungsblatt
+
+## Aufgabe 1
+Schreibt eine kleine Bibliothek `integer_operations.h` (und die entsprechende Implementierung `integer_operations.cpp`).
+
+Diese Bibliothek soll folgende Funktionen enthalten:
+* `int max3(int, int, int)` gibt das Maximum dreier ganzer Zahlen zurück
+* `int min3(int, int, int)` gibt das Minimum dreier ganzer Zahlen zurück
+* `int sum3(int, int, int)` gibt die Summe dreier ganzer Zahlen zurück
+
+Anschliessend schreibt ein Hauptprogramm, das die Bibliothek verwendet, um folgendes zu tun:
+* Das Programm gibt eine Begrüßung und eine Übersicht über seine Kommandos
+* Das Programm bittet um Eingabe eines Kommandos (ein Kommando ist ein einzelner Buchstabe)
+* Das Programm verarbeitet das Kommando (*Hint*: switch-Anweisung)
+* Wie beim vorherigen Übungsblatt soll das Programm so lange laufen, bis es vom Benutzer beendet wird
+
+Folgende Kommandos sollen Implementiert werden:
+* Kommando **'s'**: das Programm bittet um Eingabe dreier ganzer Zahlen und gibt die Summe aus
+* Kommando **'M'**: das Programm bittet um Eingabe dreier ganzer Zahlen und gibt die das Maximum aus
+* Kommando **'m'**: das Programm bittet um Eingabe dreier ganzer Zahlen und gibt das Minimum aus
+* Kommando **'h'** oder **'H'**: das Programm gibt eine Übersicht über seine Kommandos aus
+* Kommando **'x'** der **'X'**: das Programm verabschiedet sich und wird beendet !
+
+## Aufgabe 1 Lösung 
+
+```c++
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  cout << "Hallo! Hier siehst du die Kommandos, die du benutzen kannst:" << endl;
+  cout << "Mit 's' wird die Summe der 3 eingegebenen Zahlen ausgegeben" << endl;
+  cout << "Mit 'M' wird das Maximum der 3 eingegebenen Zahlen ausgegeben" << endl;
+  cout << "Mit 'm' wird das Minimum der 3 eingegebenen Zahlen ausgegeben" << endl;
+  cout << "Mit 'h' oder 'H' bekommst du eine Uebersicht ueber die Kommandos" << endl;
+  cout << "Mit 'x' oder 'X' kann das Programm beendet werden" << endl;
+
+  char eingabe = 'b';
+  cin >> eingabe;
+
+  switch (eingabe) {
+    case 's':
+    cout << "Bitte 3 ganze Zahlen eingeben: " << endl;
+    continue;
+    case 'M':
+    cout << "Bitte 3 ganze Zahlen eingeben: " << endl;
+    continue;
+    case 'm':
+    cout << "Bitte 3 ganze Zahlen eingeben: " << endl;
+    continue;
+    case 'h':
+    case 'H':
+    cout << "Mit 's' wird die Summe der 3 eingegebenen Zahlen ausgegeben" << endl;
+    cout << "Mit 'M' wird das Maximum der 3 eingegebenen Zahlen ausgegeben" << endl;
+    cout << "Mit 'm' wird das Minimum der 3 eingegebenen Zahlen ausgegeben" << endl;
+    cout << "Mit 'h' oder 'H' bekommst du eine Uebersicht ueber die Kommandos" << endl;
+    cout << "Mit 'x' oder 'X' kann das Programm beendet werden" << endl;
+    continue;
+    case 'x':
+    case 'X':
+    cout << "Tschüss! Bis zum nächsten Mal." << endl;
+    break;
+    default:
+    cout << "Falsche Eingabe!";
+  }
+
+  return 0;
+}
+
+## Bonusaufgabe
+Wie lässt sich der maximale Wert eines ganzzahligen *unsigned*-Datentyps (z.B. unsigned int, unsigned long)
+herausfinden, ohne auf die Konstanten der *climits*-Bibliothek zurückzugreifen ?
+
+Wie könnte es bei vorzeichenbehafteten, ganzzahligen Datentypen funktionieren ?
+
+**Hints**: Integer-Überlauf, bitweise Operationen ...
