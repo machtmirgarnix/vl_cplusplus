@@ -37,6 +37,7 @@ int main() {
   cout << "Mit 'x' oder 'X' kann das Programm beendet werden" << endl;
 
   char eingabe = 'b';
+  cout << "Bitte Kommando eingeben (nur ein Buchstabe): " << endl;
   cin >> eingabe;
 
   switch (eingabe) {
