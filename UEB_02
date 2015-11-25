@@ -22,10 +22,23 @@ Folgende Kommandos sollen Implementiert werden:
 * Kommando **'x'** der **'X'**: das Programm verabschiedet sich und wird beendet !
 
 ## Aufgabe 1 Lösung 
+Header-Datei:
 
-```c++
+integer_operations.h
+
+#ifndef FLAG
+#define FLAG
+
+int maximum(int , int , int );
+int minimum(int , int , int );
+int summe(int , int , int );
+
+Hauptdatei:
+
 #include <iostream>
+#include "integer_operations.h"
 using namespace std;
+
 
 int main() {
 
@@ -39,6 +52,8 @@ int main() {
   char eingabe = 'b';
   cout << "Bitte Kommando eingeben (nur ein Buchstabe): " << endl;
   cin >> eingabe;
+  
+  int c,d,f;
 
   switch (eingabe) {
     case 's':
@@ -68,6 +83,10 @@ int main() {
 
   return 0;
 }
+
+Defintionsdatei:
+
+
 
 ## Bonusaufgabe
 Wie lässt sich der maximale Wert eines ganzzahligen *unsigned*-Datentyps (z.B. unsigned int, unsigned long)
